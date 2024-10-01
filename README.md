@@ -1,2 +1,2 @@
 # QR-Generator
-crear códigos QR con urls
+Crea códigos QR a partir de una URL
