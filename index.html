@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR code</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.js"></script>
+    <script defer src="/script.js"></script>
+    <link rel="stylesheet" href="/styles.css">    
+    
+</head>
+<body>
+    <header>
+    </header>
+    <main class="contenedor">
+        <article>                
+                <figure class="img-boton">
+                    <img src="./images/logo-qr-generator.svg" alt=""> 
+                </figure>
+                <figure>                    
+                    <div class="one">
+                        <input type="text" id="link" placeholder="Ingrese la link">
+                        <label class="clean" id="clean">x</label>
+                    </div>                    
+                    
+                    <div class="two">
+                        <input type="button" id="btnQR" value="QR code">
+                    </div>                    
+                </figure> 
+                
+                <div class="container" id="container">
+                                       
+                </div>
+        </article>
+      
+    </main>
+    
+</body>
+</html>
+
